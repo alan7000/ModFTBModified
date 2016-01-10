@@ -1,0 +1,42 @@
+[23:23:06] [main/INFO]: Setting user: Player173
+[23:23:07] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:23:09] [Client thread/ERROR]: Couldn't initialize twitch stream
+[23:23:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[23:23:14] [Sound Library Loader/INFO]: Sound engine started
+[23:23:15] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:23:15] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:23:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[23:23:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:23:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:23:17] [Sound Library Loader/INFO]: Sound engine started
+[23:23:27] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:23:27] [Server thread/INFO]: Generating keypair
+[23:23:27] [Server thread/INFO]: Preparing start region for level 0
+[23:23:28] [Server thread/INFO]: Preparing spawn area: 71%
+[23:23:29] [Server thread/INFO]: Changing view distance to 9, from 10
+[23:23:29] [Server thread/INFO]: Player173[local:E:e33f820b] logged in with entity id 308 at (-163.41794195772025, 74.0, -142.3922520766787)
+[23:23:29] [Server thread/INFO]: Player173 a rejoint la partie
+[23:27:59] [Server thread/WARN]: The save is being accessed from another location, aborting
+on: 2.9.1
+[23:27:03] [Client thread/ERROR]: Couldn't initialize twitch stream
+[23:27:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[23:27:10] [Sound Library Loader/INFO]: Sound engine started
+[23:27:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:27:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:27:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[23:27:11] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[23:27:11] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[23:27:12] [Sound Library Loader/INFO]: Sound engine started
+[23:27:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:27:18] [Server thread/INFO]: Generating keypair
+[23:27:19] [Server thread/INFO]: Preparing start region for level 0
+[23:27:20] [Server thread/INFO]: Preparing spawn area: 71%
+[23:27:20] [Server thread/INFO]: Changing view distance to 9, from 10
+[23:27:20] [Server thread/INFO]: Player440[local:E:c1d6a99e] logged in with entity id 308 at (-163.41794195772025, 74.0, -142.3922520766787)
+[23:27:20] [Server thread/INFO]: Player440 a rejoint la partie
+[23:27:34] [Server thread/INFO]: Player440 vient d'obtenir le succès [Faire l'inventaire]
+[23:27:34] [Client thread/INFO]: [CHAT] Player440 vient d'obtenir le succès [Faire l'inventaire]
+[23:27:40] [Server thread/INFO]: Saving and pausing game...
+[23:27:40] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[23:27:40] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[23:27:40] [Server thread/INFO]: Saving chunks for level 'New World'/The End

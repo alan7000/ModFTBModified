@@ -1,0 +1,32 @@
+item.ironBrut.name=Iron Brut
+item.goldBrut.name=Gold Brut
+
+item.swordemerald.name=Sword Emerald
+item.pickaxeemerald.name=Pickaxe Emerald
+item.axeemerald.name=Axe Emerald
+item.shovelemerald.name=Shovel Emerald
+item.hoeemerald.name=Hoe Emerald
+
+item.helmetEmerald.name=Helmet Emerald
+item.ChestPlateEmerald.name=ChestPlate Emerald
+item.leggingsEmerald.name=Legging Emerald
+item.bootsEmerald.name=Boots Emerald
+
+item.emeraldnuggets.name=Emerald Nuggets
+item.diamondnuggets.name=Diamond Nuggets
+
+item.netherStardust.name=Nether Star dust
+
+item.swordnetherstar.name=Sword Nether Star
+item.pickaxenetherstar.name=Pickaxe Nether Star
+item.shovelnetherstar.name=Shovel Nether Star
+item.axenetherstar.name=Axe Nether Star
+
+tile.IronBrutblock.name=IronBlockBrut
+tile.GoldBrutblock.name=GoldBlockBrut
+tile.EmeraldBrutblock.name=EmeraldBlockBrut
+tile.DiamondBrutblock.name=DiamondBlockBrut
+tile.Netherstarore.name=Nether Star Ore
+tile.NetherstarBlock.name=Nether Star Block
+
+itemGroup.FTBModifiedCreativeTabs=FTB Modified

@@ -1,0 +1,121 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 09/11/15 20:54
+Description: Rendering item
+
+java.lang.NullPointerException: Rendering item
+	at net.minecraft.item.ItemStack.getItemDamage(ItemStack.java:265)
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemIntoGUI(RenderItem.java:419)
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:585)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_147051_a(GuiContainerCreative.java:968)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawGuiContainerBackgroundLayer(GuiContainerCreative.java:795)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:93)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:44)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawScreen(GuiContainerCreative.java:673)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1137)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1067)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:962)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.item.ItemStack.getItemDamage(ItemStack.java:265)
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemIntoGUI(RenderItem.java:419)
+
+-- Item being rendered --
+Details:
+	Item Type: null
+	Item Aux: ~~ERROR~~ NullPointerException: null
+	Item NBT: null
+	Item Foil: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderItem.renderItemAndEffectIntoGUI(RenderItem.java:585)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_147051_a(GuiContainerCreative.java:968)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawGuiContainerBackgroundLayer(GuiContainerCreative.java:795)
+	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:93)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.drawScreen(InventoryEffectRenderer.java:44)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.drawScreen(GuiContainerCreative.java:673)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiContainerCreative
+	Mouse location: Scaled: (570, 159). Absolute: (1141, 739)
+	Screen size: Scaled: (960, 529). Absolute: (1920, 1057). Scale factor of 2
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['Player392'/131, l='MpServer', x=-52,18, y=71,62, z=325,47]]
+	Chunk stats: MultiplayerChunkCache: 355, 355
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-21,64,321), Chunk: (at 11,4,1 in -2,20; contains blocks -32,0,320 to -17,255,335), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 1563491 game time, 1563491 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 38 total; [EntityBat['Chauve-souris'/67, l='MpServer', x=-9,34, y=16,00, z=299,57], EntityClientPlayerMP['Player392'/131, l='MpServer', x=-52,18, y=71,62, z=325,47], EntityBat['Chauve-souris'/68, l='MpServer', x=-5,25, y=30,00, z=289,50], EntityBat['Chauve-souris'/69, l='MpServer', x=-10,63, y=20,10, z=330,25], EntityBat['Chauve-souris'/70, l='MpServer', x=-3,25, y=51,10, z=353,34], EntityBat['Chauve-souris'/71, l='MpServer', x=-3,72, y=51,00, z=356,30], EntityBat['Chauve-souris'/72, l='MpServer', x=0,49, y=50,00, z=373,32], EntityPig['Cochon'/73, l='MpServer', x=-17,51, y=110,00, z=396,36], EntityBat['Chauve-souris'/76, l='MpServer', x=17,19, y=50,99, z=339,35], EntityPig['Cochon'/77, l='MpServer', x=14,27, y=98,00, z=380,51], EntitySheep['Mouton'/14, l='MpServer', x=-98,25, y=65,00, z=317,69], EntityBat['Chauve-souris'/78, l='MpServer', x=5,06, y=54,10, z=395,03], EntityPig['Cochon'/15, l='MpServer', x=-101,91, y=64,00, z=347,22], EntityPig['Cochon'/16, l='MpServer', x=-111,06, y=67,00, z=364,78], EntityPig['Cochon'/82, l='MpServer', x=24,69, y=96,00, z=390,50], EntityBat['Chauve-souris'/19, l='MpServer', x=-84,44, y=59,03, z=288,77], EntitySheep['Mouton'/20, l='MpServer', x=-87,44, y=68,00, z=322,34], EntitySheep['Mouton'/21, l='MpServer', x=-88,48, y=67,00, z=342,48], EntityPig['Cochon'/25, l='MpServer', x=-70,66, y=74,00, z=307,94], EntitySheep['Mouton'/26, l='MpServer', x=-76,84, y=78,00, z=361,13], EntityPig['Cochon'/27, l='MpServer', x=-62,69, y=82,00, z=400,90], EntityPig['Cochon'/42, l='MpServer', x=-41,31, y=61,00, z=301,50], EntityBat['Chauve-souris'/43, l='MpServer', x=-47,25, y=53,10, z=343,25], EntityBat['Chauve-souris'/44, l='MpServer', x=-47,25, y=53,10, z=343,25], EntityBat['Chauve-souris'/45, l='MpServer', x=-38,61, y=54,57, z=363,53], EntitySheep['Mouton'/46, l='MpServer', x=-36,09, y=67,00, z=355,13], EntityChicken['Poule'/47, l='MpServer', x=-42,59, y=78,93, z=359,84], EntityPig['Cochon'/48, l='MpServer', x=-42,50, y=83,00, z=366,69], EntityChicken['Poule'/49, l='MpServer', x=-41,76, y=82,00, z=365,30], EntityPig['Cochon'/50, l='MpServer', x=-41,09, y=91,00, z=384,03], EntityChicken['Poule'/51, l='MpServer', x=-40,44, y=86,00, z=373,41], EntityPig['Cochon'/52, l='MpServer', x=-41,31, y=86,00, z=369,50], EntityPig['Cochon'/53, l='MpServer', x=-47,72, y=89,00, z=392,63], EntityPig['Cochon'/54, l='MpServer', x=-33,88, y=93,00, z=394,94], EntityPig['Cochon'/55, l='MpServer', x=-39,97, y=91,00, z=389,50], EntityPig['Cochon'/56, l='MpServer', x=-33,56, y=93,00, z=401,16], EntityChicken['Poule'/60, l='MpServer', x=-26,34, y=67,00, z=353,28], EntityPig['Cochon'/61, l='MpServer', x=-28,75, y=103,00, z=405,91]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2566)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:984)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
+	at GradleStart.main(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_65, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 266429952 bytes (254 MB) / 743964672 bytes (709 MB) up to 2854223872 bytes (2722 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1448 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1448} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1448-1.7.10.jar) 
+	UCHIJAAAA	modftbmodified{1.0.3} [Mod FTB Modified] (bin) 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.5.13399 Compatibility Profile Context 15.201.1151.0' Renderer: 'AMD Radeon HD 7800 Series'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: AMD Radeon HD 7800 Series GL version 4.5.13399 Compatibility Profile Context 15.201.1151.0, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: Français (France)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

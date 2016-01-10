@@ -1,0 +1,29 @@
+[19:10:39] [main/INFO]: Setting user: Player588
+[19:10:40] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:10:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[19:10:45] [Sound Library Loader/INFO]: Sound engine started
+[19:10:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:10:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:10:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[19:10:47] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:10:47] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:10:48] [Sound Library Loader/INFO]: Sound engine started
+[19:10:54] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:10:54] [Server thread/INFO]: Generating keypair
+[19:10:54] [Server thread/INFO]: Preparing start region for level 0
+[19:10:55] [Server thread/INFO]: Preparing spawn area: 98%
+[19:10:56] [Server thread/INFO]: Changing view distance to 9, from 10
+[19:10:56] [Server thread/INFO]: Player588[local:E:ecbae1a8] logged in with entity id 144 at (-49.69999998807907, 70.0, 325.25245710238346)
+[19:10:56] [Server thread/INFO]: Player588 a rejoint la partie
+[19:15:04] [main/INFO]: Setting user: Player893
+[19:15:05] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:15:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[19:15:12] [Sound Library Loader/INFO]: Sound engine started
+[19:15:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:15:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:18:34] [main/INFO]: Setting user: Player930
+[19:18:35] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:18:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[19:18:42] [Sound Library Loader/INFO]: Sound engine started
+[19:18:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:18:43] [Client thread/INFO]: Created: 256x256 textures/items-atlas
