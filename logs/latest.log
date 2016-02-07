@@ -1,6 +1,6 @@
-[13:53:47] [main/INFO]: Setting user: Player15
-[13:53:51] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:53:52] [Client thread/ERROR]: Couldn't set pixel format
+[13:34:32] [main/INFO]: Setting user: Player110
+[13:34:38] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:34:39] [Client thread/ERROR]: Couldn't set pixel format
 org.lwjgl.LWJGLException: Pixel format not accelerated
 	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method) ~[lwjgl-2.9.1.jar:?]
 	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52) ~[lwjgl-2.9.1.jar:?]
