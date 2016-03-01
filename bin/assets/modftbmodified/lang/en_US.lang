@@ -1,5 +1,6 @@
 item.ironBrut.name=Iron Brut
 item.goldBrut.name=Gold Brut
+item.netherIngot.name=Nether Star Ingot
 
 item.swordemerald.name=Sword Emerald
 item.pickaxeemerald.name=Pickaxe Emerald
@@ -11,6 +12,11 @@ item.helmetEmerald.name=Helmet Emerald
 item.ChestPlateEmerald.name=ChestPlate Emerald
 item.leggingsEmerald.name=Legging Emerald
 item.bootsEmerald.name=Boots Emerald
+
+item.bootsNetherStar.name=Boots Nether Star
+item.leggingsNetherStar.name=Leggins Nether Star
+item.chestPlateNetherStar.name=ChestPlate Nether Star
+item.helmetNetherStar.name=Helmet Nether Star
 
 item.emeraldnuggets.name=Emerald Nuggets
 item.diamondnuggets.name=Diamond Nuggets

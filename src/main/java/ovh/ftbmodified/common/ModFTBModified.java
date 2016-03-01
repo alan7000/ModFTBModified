@@ -22,7 +22,7 @@ import net.minecraftforge.common.BiomeManager;
 import net.minecraftforge.common.util.EnumHelper;
 import ovh.ftbmodified.proxy.CommonProxy;
 
-@Mod(modid = ModFTBModified.MODID, name = "Mod FTB Modified", version = "1.0.3")
+@Mod(modid = ModFTBModified.MODID, name = "Mod FTB Modified", version = "1.3.0")
 
 public class ModFTBModified {
 	public static final String MODID = "modftbmodified";
@@ -35,7 +35,8 @@ public class ModFTBModified {
 
 	public static Item ironBrut, goldBrut, netherStardust, swordemerald, pickaxeemrald, axeemerald, shovelemerald,
 			hoeemerald, helmetEmerald, chestPlateEmerald, leggingsEmerald, bootsEmerald, emeraldNuggets, diamondNuggets,
-			swordstar, pickaxestar, shovelstar, axestar, helmetNetherStar, chestPlateNetherStar, leggingsNetherStar, bootsNetherStar;
+			swordstar, pickaxestar, shovelstar, axestar, helmetNetherStar, chestPlateNetherStar, leggingsNetherStar, bootsNetherStar, cageSpawner, netherStarIngot;
+
 
 	public static Block ironBrutblock, goldBrutblock, emeraldBrutblock, diamondBrutblock, netherStarOre,
 			netherStarBlock;
@@ -64,7 +65,10 @@ public class ModFTBModified {
 				.setCreativeTab(FTBModifiedCreativeTabs);
 		netherStardust = new NetherStarDust().setUnlocalizedName("netherStardust")
 				.setTextureName(MODID + ":netherstardust").setCreativeTab(FTBModifiedCreativeTabs);
-;
+		netherStarIngot = new NetherStarIngot().setUnlocalizedName("netherIngot")
+				.setTextureName(MODID + ":netheringot").setCreativeTab(FTBModifiedCreativeTabs);
+		
+		
 		emeraldNuggets = new EmeraldNuggets().setUnlocalizedName("emeraldnuggets")
 				.setTextureName(MODID + ":emeraldnuggets").setCreativeTab(FTBModifiedCreativeTabs);
 		diamondNuggets = new DiamondNuggets().setUnlocalizedName("diamondnuggets")
@@ -102,7 +106,7 @@ public class ModFTBModified {
 		helmetNetherStar = new ArmorNetherStar(armorNetherStar, 0).setUnlocalizedName("helmetNetherStar")
 				.setTextureName(MODID + ":helmet_nether_star").setCreativeTab(FTBModifiedCreativeTabs);
 		chestPlateNetherStar = new ArmorNetherStar(armorNetherStar, 1).setUnlocalizedName("chestPlateNetherStar")
-				.setTextureName(MODID + ":chetsplate_nether_star").setCreativeTab(FTBModifiedCreativeTabs);
+				.setTextureName(MODID + ":chestplate_nether_star").setCreativeTab(FTBModifiedCreativeTabs);
 		leggingsNetherStar = new ArmorNetherStar(armorNetherStar, 2).setUnlocalizedName("leggingsNetherStar")
 				.setTextureName(MODID + ":leggings_nether_star").setCreativeTab(FTBModifiedCreativeTabs);
 		bootsNetherStar = new ArmorNetherStar(armorNetherStar , 3).setUnlocalizedName("bootsNetherStar")
@@ -120,6 +124,7 @@ public class ModFTBModified {
 				.setBlockTextureName(MODID + ":nether_star_ore").setCreativeTab(FTBModifiedCreativeTabs);
 		netherStarBlock = new NetherStarBlock(Material.rock).setBlockName("Netherstarblock").setHardness(3.0F)
 				.setBlockTextureName(MODID + ":nether_star_block").setCreativeTab(FTBModifiedCreativeTabs);
+		
 
 		GameRegistry.registerItem(ironBrut, "Iron_Brut");
 		GameRegistry.registerItem(goldBrut, "Gold_Brut");
@@ -150,6 +155,7 @@ public class ModFTBModified {
 
 		GameRegistry.registerBlock(ironBrutblock, "Iron_Brut_Block");
 		GameRegistry.registerBlock(goldBrutblock, "Gold_Brut_Block");
+		GameRegistry.registerItem(netherStarIngot, "Nether_Ingot");
 		GameRegistry.registerBlock(emeraldBrutblock, "Emerald_Brut_Block");
 		GameRegistry.registerBlock(diamondBrutblock, "Diamond_Brut_Block");
 		GameRegistry.registerBlock(netherStarOre, "Nether_Star_Ore");
@@ -159,8 +165,12 @@ public class ModFTBModified {
 
 		GameRegistry.addSmelting(ironBrut, new ItemStack(Items.iron_ingot), 1.0f);
 		GameRegistry.addSmelting(goldBrut, new ItemStack(Items.gold_ingot), 1.0f);
+		GameRegistry.addSmelting(netherStardust, new ItemStack(netherStarIngot), 1.0f);
+
 
 	}
+
+	
 
 	@SuppressWarnings("deprecation")
 	@EventHandler
@@ -199,12 +209,17 @@ public class ModFTBModified {
 		GameRegistry.addRecipe(new ItemStack(Items.diamond), new Object[] { "XXX", "XXX", "XXX", 'X', diamondNuggets });
 		
 		GameRegistry.addRecipe(new ItemStack(Items.nether_star),
-				new Object[] { "XXX", "XXX", "XXX", 'X', netherStardust });
+				new Object[] { " X ", "XXX", " X ", 'X', netherStarIngot });
 
 		GameRegistry.addRecipe(new ItemStack(netherStarBlock),
-				new Object[] { "XXX", "XXX", "XXX", 'X', Items.nether_star });
-		GameRegistry.addRecipe(new ItemStack(Items.nether_star, 9),
+				new Object[] { "XXX", "XXX", "XXX", 'X', netherStarIngot });
+		GameRegistry.addRecipe(new ItemStack(netherStarIngot, 9),
 				new Object[] { "   ", " X ", "   ", 'X', netherStarBlock });
+		
+		GameRegistry.addRecipe(new ItemStack(helmetNetherStar), new Object[] {"XXX", "X X", "   ", 'X', netherStarIngot});
+		GameRegistry.addRecipe(new ItemStack(chestPlateNetherStar), new Object[] {"X X", "XXX", "XXX", 'X', netherStarIngot});
+		GameRegistry.addRecipe(new ItemStack(leggingsNetherStar), new Object[] {"X X", "X X", "XXX", 'X', netherStarIngot});
+		GameRegistry.addRecipe(new ItemStack(bootsNetherStar), new Object[] {"   ", "X X", "X X", 'X', netherStarIngot});
 
 		BiomeDictionary.registerBiomeType(BiomeGenOre, BiomeDictionary.Type.FOREST);
 		BiomeManager.addSpawnBiome(BiomeGenOre);

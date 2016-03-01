@@ -3,7 +3,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:16
+renderDistance:6
 guiScale:2
 particles:0
 bobView:true
@@ -11,7 +11,7 @@ anaglyph3d:false
 advancedOpengl:true
 maxFps:260
 fboEnable:true
-difficulty:0
+difficulty:2
 fancyGraphics:true
 ao:2
 clouds:true
@@ -39,8 +39,8 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:4
-anisotropicFiltering:16
+mipmapLevels:0
+anisotropicFiltering:1
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
 streamSystemVolume:1.0

@@ -1,22 +1,39 @@
-[13:34:32] [main/INFO]: Setting user: Player110
-[13:34:38] [Client thread/INFO]: LWJGL Version: 2.9.1
-[13:34:39] [Client thread/ERROR]: Couldn't set pixel format
-org.lwjgl.LWJGLException: Pixel format not accelerated
-	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:252) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.Display.createWindow(Display.java:306) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.Display.create(Display.java:848) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.Display.create(Display.java:757) ~[lwjgl-2.9.1.jar:?]
-	at net.minecraftforge.client.ForgeHooksClient.createDisplay(ForgeHooksClient.java:327) ~[ForgeHooksClient.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:474) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_66]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_66]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_66]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_66]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
+[21:06:06] [main/INFO]: Setting user: Player359
+[21:06:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:06:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[21:06:20] [Sound Library Loader/INFO]: Sound engine started
+[21:06:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:06:51] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:06:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[21:06:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:06:52] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:06:53] [Sound Library Loader/INFO]: Sound engine started
+[21:07:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:07:02] [Server thread/INFO]: Generating keypair
+[21:07:03] [Server thread/INFO]: Preparing start region for level 0
+[21:07:04] [Server thread/INFO]: Preparing spawn area: 9%
+[21:07:05] [Server thread/INFO]: Preparing spawn area: 82%
+[21:07:06] [Server thread/INFO]: Changing view distance to 6, from 10
+[21:07:20] [Server thread/INFO]: Stopping server
+[21:07:20] [Server thread/INFO]: Saving players
+[21:07:20] [Server thread/INFO]: Saving worlds
+[21:07:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
+[21:07:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
+[21:07:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
+[21:07:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:07:21] [Server thread/INFO]: Generating keypair
+[21:07:21] [Server thread/INFO]: Preparing start region for level 0
+[21:07:22] [Server thread/INFO]: Changing view distance to 6, from 10
+[21:07:23] [Server thread/INFO]: Player359[local:E:802c93a2] logged in with entity id 446 at (-87.74787622455104, 66.0, 331.0274997366876)
+[21:07:23] [Server thread/INFO]: Player359 a rejoint la partie
+[21:10:05] [Server thread/INFO]: Saving and pausing game...
+[21:10:05] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
+[21:10:05] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
+[21:10:05] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
+[21:10:06] [Server thread/INFO]: Stopping server
+[21:10:06] [Server thread/INFO]: Saving players
+[21:10:06] [Server thread/INFO]: Saving worlds
+[21:10:06] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
+[21:10:06] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
+[21:10:06] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
+[21:10:10] [Client thread/INFO]: Stopping!
