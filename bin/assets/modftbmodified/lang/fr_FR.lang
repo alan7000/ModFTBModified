@@ -1,5 +1,7 @@
 item.ironBrut.name=Fer Brut
 item.goldBrut.name=Or Brut
+item.netherIngot.name=L'ingot Nether Star 
+
 
 item.swordemerald.name=Epée en Emeraude
 item.pickaxeemerald.name=Pioche en Emeraude
@@ -11,6 +13,11 @@ item.helmetEmerald.name=Casque en Emeraude
 item.ChestPlateEmerald.name=Plastron en Emeraude
 item.leggingsEmerald.name=Pantalon en Emeraude
 item.bootsEmerald.name=Chaussure en Emeraude
+
+item.bootsNetherStar.name=Chassure Nether Star
+item.leggingsNetherStar.name=Pantalon Nether Star
+item.chestPlateNetherStar.name=Plastron Nether Star
+item.helmetNetherStar.name=Casque Nether Star
 
 item.emeraldnuggets.name=Pépite d'emeraude
 item.diamondnuggets.name=Pépite de diamond

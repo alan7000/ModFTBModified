@@ -1,0 +1,22 @@
+[15:00:22] [main/INFO]: Setting user: Player288
+[15:00:28] [Client thread/INFO]: LWJGL Version: 2.9.1
+[15:00:29] [Client thread/ERROR]: Couldn't set pixel format
+org.lwjgl.LWJGLException: Pixel format not accelerated
+	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method) ~[lwjgl-2.9.1.jar:?]
+	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52) ~[lwjgl-2.9.1.jar:?]
+	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:252) ~[lwjgl-2.9.1.jar:?]
+	at org.lwjgl.opengl.Display.createWindow(Display.java:306) ~[lwjgl-2.9.1.jar:?]
+	at org.lwjgl.opengl.Display.create(Display.java:848) ~[lwjgl-2.9.1.jar:?]
+	at org.lwjgl.opengl.Display.create(Display.java:757) ~[lwjgl-2.9.1.jar:?]
+	at net.minecraftforge.client.ForgeHooksClient.createDisplay(ForgeHooksClient.java:327) ~[ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:474) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
+	at GradleStart.main(Unknown Source) [start/:?]
