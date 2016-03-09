@@ -17,6 +17,11 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Folder not important
+logs
+crash-reports
+
+
 # =========================
 # Operating System Files
 # =========================
