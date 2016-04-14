@@ -4,7 +4,6 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class DiamondOre extends Block
@@ -12,7 +11,7 @@ public class DiamondOre extends Block
 	public DiamondOre(Material rock)
     {
         super(Material.rock);
-        this.setCreativeTab(CreativeTabs.tabBlock);
+        this.setCreativeTab(ModFTBModified.FTBModifiedCreativeTabs);
     }
 
     public Item getItemDropped(int metadata, Random rand, int fortune)
