@@ -8,157 +8,26 @@
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
-:compileJava UP-TO-DATE
-:processResources UP-TO-DATE
-:classes UP-TO-DATE
-:jar UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:processResources
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:extractMcpData UP-TO-DATE
 :getVersionJson
 :extractUserDev UP-TO-DATE
-:extractNatives UP-TO-DATE
-:getAssetsIndex
-:getAssets
-:makeStart
-[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
-[ant:javac] 1 warning
-:runClient
-[15:00:13] [main/INFO] [GradleStart]: Extra: []
-[15:00:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Alan700/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[15:00:13] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[15:00:13] [main/INFO] [FML]: Forge Mod Loader version 7.99.16.1448 for Minecraft 1.7.10 loading
-[15:00:13] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_74, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_74\jre
-[15:00:13] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[15:00:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[15:00:13] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[15:00:13] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[15:00:13] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[15:00:13] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:00:14] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[15:00:17] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[15:00:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[15:00:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[15:00:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[15:00:19] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[15:00:19] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[15:00:19] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[15:00:22] [main/INFO]: Setting user: Player288
-[15:00:28] [Client thread/INFO]: LWJGL Version: 2.9.1
-[15:00:29] [Client thread/ERROR]: Couldn't set pixel format
-org.lwjgl.LWJGLException: Pixel format not accelerated
-	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:252) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.Display.createWindow(Display.java:306) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.Display.create(Display.java:848) ~[lwjgl-2.9.1.jar:?]
-	at org.lwjgl.opengl.Display.create(Display.java:757) ~[lwjgl-2.9.1.jar:?]
-	at net.minecraftforge.client.ForgeHooksClient.createDisplay(ForgeHooksClient.java:327) ~[ForgeHooksClient.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:474) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:942) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_74]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_74]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_74]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_74]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source) [start/:?]
-	at GradleStart.main(Unknown Source) [start/:?]
-[15:00:31] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:displayCrashReport:388]: ---- Minecraft Crash Report ----
-// Who set us up the TNT?
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
 
-Time: 11/02/16 15:00
-Description: Initializing game
+BUILD SUCCESSFUL
 
-org.lwjgl.LWJGLException: Pixel format not accelerated
-	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method)
-	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52)
-	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:252)
-	at org.lwjgl.opengl.Display.createWindow(Display.java:306)
-	at org.lwjgl.opengl.Display.create(Display.java:848)
-	at org.lwjgl.opengl.Display.create(Display.java:757)
-	at org.lwjgl.opengl.Display.create(Display.java:739)
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:494)
-	at net.minecraft.client.Minecraft.run(Minecraft.java:942)
-	at net.minecraft.client.main.Main.main(Main.java:164)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
-	at GradleStart.main(Unknown Source)
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- Head --
-Stacktrace:
-	at org.lwjgl.opengl.WindowsPeerInfo.nChoosePixelFormat(Native Method)
-	at org.lwjgl.opengl.WindowsPeerInfo.choosePixelFormat(WindowsPeerInfo.java:52)
-	at org.lwjgl.opengl.WindowsDisplay.createWindow(WindowsDisplay.java:252)
-	at org.lwjgl.opengl.Display.createWindow(Display.java:306)
-	at org.lwjgl.opengl.Display.create(Display.java:848)
-	at org.lwjgl.opengl.Display.create(Display.java:757)
-	at org.lwjgl.opengl.Display.create(Display.java:739)
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:494)
-
--- Initialization --
-Details:
-Stacktrace:
-	at net.minecraft.client.Minecraft.run(Minecraft.java:942)
-	at net.minecraft.client.main.Main.main(Main.java:164)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-	at net.minecraftforge.gradle.GradleStartCommon.launch(Unknown Source)
-	at GradleStart.main(Unknown Source)
-
--- System Details --
-Details:
-	Minecraft Version: 1.7.10
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_74, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 53312272 bytes (50 MB) / 145752064 bytes (139 MB) up to 908066816 bytes (866 MB)
-	JVM Flags: 0 total; 
-	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	Launched Version: 1.7.10
-	LWJGL: 2.9.1
-	OpenGL: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
-	GL Caps: 
-	Is Modded: Definitely; Client brand changed to 'fml,forge'
-	Type: Client (map_client.txt)
-	Resource Packs: []
-	Current Language: ~~ERROR~~ NullPointerException: null
-	Profiler Position: N/A (disabled)
-	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
-	Anisotropic Filtering: Off (1)
-[15:00:31] [Client thread/INFO] [STDOUT]: [net.minecraft.client.Minecraft:displayCrashReport:398]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\Alan700\Documents\GitHub\ModFTBModified\eclipse\.\crash-reports\crash-2016-02-11_15.00.31-client.txt
-:runClient FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':runClient'.
-> Process 'command 'C:\Program Files\Java\jdk1.8.0_74\bin\java.exe'' finished with non-zero exit value -1
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
-
-BUILD FAILED
-
-Total time: 57.328 secs
+Total time: 57.815 secs

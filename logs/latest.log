@@ -1,39 +1,30 @@
-[21:06:06] [main/INFO]: Setting user: Player359
-[21:06:08] [Client thread/INFO]: LWJGL Version: 2.9.1
-[21:06:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
-[21:06:20] [Sound Library Loader/INFO]: Sound engine started
-[21:06:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:06:51] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[21:06:51] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
-[21:06:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[21:06:52] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[21:06:53] [Sound Library Loader/INFO]: Sound engine started
-[21:07:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:07:02] [Server thread/INFO]: Generating keypair
-[21:07:03] [Server thread/INFO]: Preparing start region for level 0
-[21:07:04] [Server thread/INFO]: Preparing spawn area: 9%
-[21:07:05] [Server thread/INFO]: Preparing spawn area: 82%
-[21:07:06] [Server thread/INFO]: Changing view distance to 6, from 10
-[21:07:20] [Server thread/INFO]: Stopping server
-[21:07:20] [Server thread/INFO]: Saving players
-[21:07:20] [Server thread/INFO]: Saving worlds
-[21:07:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
-[21:07:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
-[21:07:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
-[21:07:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[21:07:21] [Server thread/INFO]: Generating keypair
-[21:07:21] [Server thread/INFO]: Preparing start region for level 0
-[21:07:22] [Server thread/INFO]: Changing view distance to 6, from 10
-[21:07:23] [Server thread/INFO]: Player359[local:E:802c93a2] logged in with entity id 446 at (-87.74787622455104, 66.0, 331.0274997366876)
-[21:07:23] [Server thread/INFO]: Player359 a rejoint la partie
-[21:10:05] [Server thread/INFO]: Saving and pausing game...
-[21:10:05] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
-[21:10:05] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
-[21:10:05] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
-[21:10:06] [Server thread/INFO]: Stopping server
-[21:10:06] [Server thread/INFO]: Saving players
-[21:10:06] [Server thread/INFO]: Saving worlds
-[21:10:06] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
-[21:10:06] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
-[21:10:06] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
-[21:10:10] [Client thread/INFO]: Stopping!
+[14:42:47] [main/INFO]: Setting user: Player718
+[14:42:51] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:43:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[14:43:14] [Sound Library Loader/INFO]: Sound engine started
+[14:43:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:43:42] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[14:43:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mod FTB Modified
+[14:43:44] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:43:45] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[14:43:46] [Sound Library Loader/INFO]: Sound engine started
+[14:46:01] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:46:01] [Server thread/INFO]: Generating keypair
+[14:46:03] [Server thread/INFO]: Preparing start region for level 0
+[14:46:04] [Server thread/INFO]: Preparing spawn area: 0%
+[14:46:05] [Server thread/INFO]: Preparing spawn area: 19%
+[14:46:06] [Server thread/INFO]: Preparing spawn area: 67%
+[14:46:06] [Server thread/INFO]: Changing view distance to 6, from 10
+[14:46:08] [Server thread/INFO]: Player718[local:E:31e2e623] logged in with entity id 223 at (-87.74787622455104, 66.0, 331.0274997366876)
+[14:46:08] [Server thread/INFO]: Player718 a rejoint la partie
+[14:46:20] [Server thread/INFO]: Saving and pausing game...
+[14:46:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
+[14:46:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
+[14:46:20] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
+[14:46:21] [Server thread/INFO]: Stopping server
+[14:46:21] [Server thread/INFO]: Saving players
+[14:46:21] [Server thread/INFO]: Saving worlds
+[14:46:21] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Overworld
+[14:46:21] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/Nether
+[14:46:21] [Server thread/INFO]: Saving chunks for level 'Nouveau monde'/The End
+[14:46:23] [Client thread/INFO]: Stopping!

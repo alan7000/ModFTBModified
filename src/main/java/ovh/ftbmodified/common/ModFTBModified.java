@@ -35,7 +35,7 @@ public class ModFTBModified {
 
 	public static Item ironBrut, goldBrut, netherStardust, swordemerald, pickaxeemrald, axeemerald, shovelemerald,
 			hoeemerald, helmetEmerald, chestPlateEmerald, leggingsEmerald, bootsEmerald, emeraldNuggets, diamondNuggets,
-			swordstar, pickaxestar, shovelstar, axestar, helmetNetherStar, chestPlateNetherStar, leggingsNetherStar, bootsNetherStar, cageSpawner, netherStarIngot;
+			swordstar, pickaxestar, shovelstar, axestar, helmetNetherStar, chestPlateNetherStar, leggingsNetherStar, bootsNetherStar, netherStarIngot;
 
 
 	public static Block ironBrutblock, goldBrutblock, emeraldBrutblock, diamondBrutblock, netherStarOre,
@@ -125,7 +125,6 @@ public class ModFTBModified {
 		netherStarBlock = new NetherStarBlock(Material.rock).setBlockName("Netherstarblock").setHardness(3.0F)
 				.setBlockTextureName(MODID + ":nether_star_block").setCreativeTab(FTBModifiedCreativeTabs);
 		
-
 		GameRegistry.registerItem(ironBrut, "Iron_Brut");
 		GameRegistry.registerItem(goldBrut, "Gold_Brut");
 		GameRegistry.registerItem(netherStardust, "Nether_Star_Dust");

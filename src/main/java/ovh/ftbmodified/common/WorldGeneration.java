@@ -28,7 +28,7 @@ public class WorldGeneration implements IWorldGenerator
 		this.addOreSpawn(ModFTBModified.emeraldBrutblock, 0, Blocks.stone, world, random, x, z, 16, 16, 10, 20, 1, 90);
 		this.addOreSpawn(ModFTBModified.goldBrutblock, 0, Blocks.stone, world, random, x, z, 16, 16, 10, 20, 1, 90);
 		this.addOreSpawn(ModFTBModified.diamondBrutblock, 0, Blocks.stone, world, random, x, z, 16, 16, 10, 20, 1, 90);
-		this.addOreSpawn(ModFTBModified.netherStarOre, 0, Blocks.stone, world, random, x, z, 1, 1, 1, 1, 1, 16);
+		this.addOreSpawn(ModFTBModified.netherStarOre, 0, Blocks.stone, world, random, x, z, 16, 16, 1, 1, 1, 16);
 	}
 	
 	public void addOreSpawn(Block block, int metadata, Block target, World world, Random random, int blockXPos, int blockZPos, int maxX, int maxZ, int maxVeinSize, int chanceToSpawn, int minY, int maxY) 
