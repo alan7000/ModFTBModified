@@ -20,6 +20,25 @@ $RECYCLE.BIN/
 # Folder not important
 logs
 crash-reports
+asm
+bin
+build
+config
+saves
+screenshots
+world
+
+#Files
+banned-ips.json
+banned-players.json
+ops.json
+options.txt
+server.properties
+servers.dat
+usercache.json
+usernamecache.json
+whitelist.json
+*.log
 
 
 # =========================
