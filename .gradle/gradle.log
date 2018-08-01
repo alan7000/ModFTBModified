@@ -5,31 +5,17 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:extractMcpData
-:getVersionJson
-:extractUserDev
-:genSrgs SKIPPED
-:extractNatives
-:getAssetsIndex
-:getAssets
-:makeStart SKIPPED
-:downloadMcpTools SKIPPED
-:downloadClient SKIPPED
-:downloadServer SKIPPED
-:mergeJars SKIPPED
-:deobfuscateJar SKIPPED
-:decompile SKIPPED
-:processSources SKIPPED
-:remapJar SKIPPED
-:extractMinecraftSrc SKIPPED
-:recompMinecraft SKIPPED
-:repackMinecraft SKIPPED
-:setupDecompWorkspace UP-TO-DATE
-:eclipseClasspath
-:eclipseJdt
-:eclipseProject
-:eclipse
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
+
+:processResources
+:classes
+:jar
 
 BUILD SUCCESSFUL
 
-Total time: 25.776 secs
+Total time: 29.159 secs
