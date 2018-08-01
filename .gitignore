@@ -65,3 +65,26 @@ whitelist.json
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
